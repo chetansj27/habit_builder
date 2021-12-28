@@ -10,18 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HabitBuilder">
         <activity android:name=".LogInActivity" />
-        <activity android:name=".Intro3Activity" />
         <activity android:name=".Intro2Activity" />
         <activity android:name=".Intro1Activity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".SplashActivity" />
-        <activity android:name=".SignUpActivity">
+        <activity android:name=".Intro3Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+
     </application>
 
 </manifest>
